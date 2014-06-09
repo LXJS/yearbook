@@ -1,0 +1,105 @@
+body {
+	padding-top: 0.9375em;
+	padding-bottom: 0.9375em;
+	font-family: Asap, sans;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.6em;
+	color: #33485d;
+}
+
+h1, h2, h3, h4 {
+	color: #33485d;
+}
+h1.main {
+	font-weight: 700;
+	margin: 0.9rem 0 1.8rem 0;
+	font-size: 3rem;
+	letter-spacing: -2px;
+}
+h1.main:after {
+	content: '';
+	display: block;
+	height: 6px;
+	background-color: #33485d;
+	width: 40px;
+	margin: -4px 0 0px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+header h1 {
+	margin: 0 0 0.9375rem 0;
+}
+#logo {
+	width: 100%;
+	max-width: 400px;
+}
+
+.banner {
+	background-color: #0575BB;
+	padding: 1.8rem 0 0.9rem 0;
+	margin-bottom: 0.9375rem;
+}
+.banner p {
+	color: white;
+	max-width: 750px;
+}
+@media only screen and (min-width: 40.063em) {
+	.banner p {
+		font-size: 1.5rem;
+	}
+}
+
+.edition h2 {
+	font-size: 1.5rem;
+	letter-spacing: -0.8px;
+	font-weight: 700;
+	margin: 1.8rem 0 1.8rem 0;
+}
+.edition h2 span {
+	/* icons */
+	color: #0573B8;
+	padding-right: 8px;
+	font-size: 1.9rem;
+	vertical-align: middle;
+}
+
+ul.facts p {
+	margin: 0;
+}
+ul.facts .large {
+	font-size: 3rem;
+	line-height: 3rem;
+}
+
+ul.speakers strong,
+ul.team strong {
+	display: block;
+}
+
+ul.speakers .bio,
+ul.team .bio {
+	font-size: 0.7rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+
+.sponsors li {
+	text-align: center;
+}
+
+footer > .row {
+	border-top: 4px solid #33485d;
+	margin-top: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 4rem;
+}
+footer .contacts {
+	text-align: right;
+}
