@@ -4,6 +4,10 @@ body {
 	font-family: Asap, sans;
 }
 
+a:visited {
+	color: #33485d;
+}
+
 p {
 	font-size: 1em;
 	line-height: 1.6em;
@@ -89,6 +93,14 @@ ul.team .bio {
 	text-transform: uppercase;
 }
 
+ul.speakers .video {
+	display: block;
+	font-size: 0.8rem;
+	padding-bottom: 4px;
+}
+ul.speakers .video:before {
+	padding-right: 4px;
+}
 
 .sponsors li {
 	text-align: center;
