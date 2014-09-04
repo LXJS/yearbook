@@ -102,6 +102,15 @@ ul.speakers .video:before {
 	padding-right: 4px;
 }
 
+ul.speakers .meta,
+ul.team .meta {
+	display: block;
+	font-size: 0.8rem;
+	font-style: italic;
+	padding-bottom: 4px;
+	line-height: 0.8rem;
+}
+
 .sponsors li {
 	text-align: center;
 }
